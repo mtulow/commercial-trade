@@ -1,0 +1,8 @@
+dlt[snowflake]>=1.5.0
+duckdb
+pandas
+pyarrow
+dbt-core
+dbt-snowflake
+prefect
+prefect-snowflake
