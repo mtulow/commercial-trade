@@ -12,12 +12,23 @@
 		"ghcr.io/joshuanianji/devcontainer-features/gcloud-cli-persistence:1": {},
 		"ghcr.io/devcontainers-extra/features/black:2": {},
 		"ghcr.io/devcontainers-extra/features/isort:2": {},
-		"ghcr.io/devcontainers-extra/features/terraform-asdf:2": {}
+		"ghcr.io/devcontainers-extra/features/terraform-asdf:2": {},
+		"ghcr.io/devcontainers-extra/features/vault-asdf:2": {},
+		"ghcr.io/devcontainers-extra/features/mongosh-homebrew:1": {}
 	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"googlecloudtools.cloudcode",
+				"HashiCorp.terraform",
+				"snowflake.snowflake-vsc",
+				"mongodb.mongodb-vscode"
+			]
+		}
+	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
-  "forwardPorts": [8080]
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "docker --version",

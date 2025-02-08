@@ -1,7 +1,7 @@
-# <center> United Nations Commercial Trade Database </center>
+# <center> World Trade Organization Commercial Trade Database </center>
 ---
 
-An end-to-end ETL project with the United Nations Commercial Trade Database.
+An end-to-end ETL project with the World Trade Organization Commercial Trade Database.
 
 ---
 ---
